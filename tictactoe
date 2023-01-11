@@ -1,0 +1,19 @@
+import random
+import tkinter
+def next_turn():
+    pass
+def check_winner():
+    pass
+def check_spaces():
+    pass
+def check_game():
+    pass
+window= tkinter()
+window.title("tictactoe door dylan en ruben")
+players = ["R", "D"]
+players = random.choice(players)
+button = [[0,0,0],
+          [0,0,0],
+          [0,0,0]]
+window.mainloop()
+           
